@@ -29,8 +29,8 @@ Dataset has following features.
 
 ### A. Missing Values
 ![](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/images/1.png)
-Fill up the missing elements with mean of the 'MINIMUM_PAYMENT
-Fill up the missing elements with mean of the 'CREDIT_LIMIT'
+
+I filled up the missing elements with mean of the 'MINIMUM_PAYMENT' and the mean of the 'CREDIT_LIMIT'.
 
 ### B. KDE
 KDE Plot represents the Kernel Density Estimate. KDE is used for visualizing the Probability Density of a continuous variable.KDE demonstrates the probability density at different values in a continuous variable.
@@ -51,10 +51,13 @@ The elbow method is a heuristic method of interpretation and validation of consi
 Both are unsupervised learning algorithms.
 
 I concatenated the clusters labels to original dataframe and Plotted the histogram of various clusters.
+
 ![](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/images/5.png)
 
 Then I applied PCA and Visualize the results.
+
 ![](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/images/4.png)
+
 
 To understand it in more detail go to [Bank_Customers_Segmentation.ipynb](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/Bank_Customers_Segmentation.ipynb)
 
