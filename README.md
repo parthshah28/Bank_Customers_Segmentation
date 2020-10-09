@@ -24,3 +24,38 @@ Dataset has following features.
 ##### MINIMUM_PAYMENTS: Minimum amount of payments made by user  
 ##### PRC_FULL_PAYMENT: Percent of full payment paid by user
 ##### TENURE: Tenure of credit card service for user
+
+## Feature Engineering:
+
+### A. Missing Values
+![](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/images/1.png)
+Fill up the missing elements with mean of the 'MINIMUM_PAYMENT
+Fill up the missing elements with mean of the 'CREDIT_LIMIT'
+
+### B. KDE
+KDE Plot represents the Kernel Density Estimate. KDE is used for visualizing the Probability Density of a continuous variable.KDE demonstrates the probability density at different values in a continuous variable.
+
+I plotted distplot using seaborn. Distplot combines the matplotlib.hist function with seaborn kdeplot()
+![](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/images/2.png)
+
+### C. Feature Scaling
+For scaling StandardScaler has been applied.
+
+## The optimal number of cluster using Elbow Method:
+The elbow method is a heuristic method of interpretation and validation of consistency within cluster analysis designed to help find the appropriate number of clusters in a dataset. If the line chart looks like an arm, then the "elbow" on the arm is the value of k that is the best.
+![](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/images/3.png)
+
+## Algorithms Used:
+#### 1. KMeans
+#### 2. PCA
+Both are unsupervised learning algorithms.
+
+I concatenated the clusters labels to original dataframe and Plotted the histogram of various clusters.
+![](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/images/5.png)
+
+Then I applied PCA and Visualize the results.
+![](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/images/4.png)
+
+To understand it in more detail go to [Bank_Customers_Segmentation.ipynb](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/Bank_Customers_Segmentation.ipynb)
+
+
