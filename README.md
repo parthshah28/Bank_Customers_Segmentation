@@ -59,6 +59,7 @@ Then I applied PCA and Visualize the results.
 
 ![](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/images/4.png)
 
+#### I have also used AUTOENCODERS to Perfom Dimensionality Reduction.
 
 To understand it in more detail go to [Bank_Customers_Segmentation.ipynb](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/Bank_Customers_Segmentation.ipynb)
 
