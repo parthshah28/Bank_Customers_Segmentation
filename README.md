@@ -43,6 +43,7 @@ For scaling StandardScaler has been applied.
 
 ## The optimal number of cluster using Elbow Method:
 The elbow method is a heuristic method of interpretation and validation of consistency within cluster analysis designed to help find the appropriate number of clusters in a dataset. If the line chart looks like an arm, then the "elbow" on the arm is the value of k that is the best.
+
 ![](https://github.com/parthshah28/Bank_Customers_Segmentation/blob/main/images/3.png)
 
 ## Algorithms Used:
